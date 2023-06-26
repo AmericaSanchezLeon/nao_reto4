@@ -1,4 +1,9 @@
 # nao_reto4
-Repositorio para Reto 4: Un cambio funcional en una empresa e-commerce
+Para correrlo en Codespaces
 
+cd/nao-dashboard
+npm start
 
+Correo de prueba para ingresar
+user1@example.com, contraseña: password1
+o puedes crear tu propio user!
