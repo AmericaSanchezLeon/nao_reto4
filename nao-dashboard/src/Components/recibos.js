@@ -6,7 +6,8 @@ export default function Recibos() {
   return (
     <div className='p-8'>
       <div className='overflow-x-auto'>
-      <h2 class="p-2 underline decoration-violet-900	font-semibold text-lg">Recibos</h2>
+      <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Recibos</h2>
+
 
         <Table >
           <Table.Head>

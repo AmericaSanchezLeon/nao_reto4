@@ -5,10 +5,11 @@ import Productos from "./productos";
 
 export default function Home() {
   return (
-    <div class="w-9/12 bg-slate-100 m-5 w-full overflow-y-auto">
+    <div className="w-9/12 bg-slate-100 m-5 w-full overflow-y-auto">
       <Ventas />
       <Productos />
-    <div class="flex">
+    <div className="flex">
+
       <Clientes />
       <Recibos />
     </div>

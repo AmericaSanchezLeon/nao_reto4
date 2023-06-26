@@ -1,4 +1,6 @@
+
 import React from 'react';
+
 import { ResponsiveLine } from '@nivo/line';
 import '@nivo/core';
 
@@ -15,11 +17,11 @@ const salesData = [
   },
 ];
 
-
 const Ventas = () => {
   return (
-    <div class="w-full" style={{ height: '400px' }}>
-            <h2 class="p-2 underline decoration-violet-900	font-semibold text-lg">Ventas</h2>
+    <div className="w-full" style={{ height: '400px' }}>
+            <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Ventas</h2>
+
 
       <ResponsiveLine
         data={salesData}

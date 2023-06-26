@@ -2,8 +2,9 @@ import { Table, Button, Badge, Checkbox, Mask } from "react-daisyui";
 
 export default function Clientes() {
   return (
-    <div class="p-8">
-      <h2 class="p-2 underline decoration-violet-900	font-semibold text-lg">Clientes</h2>
+    <div className="p-8">
+      <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Clientes</h2>
+
       <div className="overflow-x-auto">
         <Table className="rounded-box">
           <Table.Head>
