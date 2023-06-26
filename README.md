@@ -1,6 +1,8 @@
 # nao_reto4
 Para correrlo en Codespaces
+Abre el codespace "glorious-dollop"
 
+En la terminal escribe:
 cd/nao-dashboard
 npm start
 
