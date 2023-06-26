@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@nivo/core": "^0.83.0",
+    "@nivo/line": "^0.83.0",
+    "formik": "^2.4.2",
+    "nivo": "^0.31.0",
+    "yup": "^1.2.0"
+  }
+}
