@@ -8,6 +8,7 @@ export default function Recibos() {
       <div className='overflow-x-auto'>
       <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Recibos</h2>
 
+
         <Table >
           <Table.Head>
             <span />

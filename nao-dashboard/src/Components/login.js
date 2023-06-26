@@ -17,10 +17,12 @@ import Clientes from "./clientes";
 
 import usersData from "../usersData.json"
 
+
 const Login = () => {
   const navigate = useNavigate();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [error, setError] = useState('');
+
 
   const initialValues = {
     email: '',
@@ -108,6 +110,7 @@ const Login = () => {
           <Tab className="px-4 py-2 rounded font-semibold cursor-pointer focus:outline-none aria-selected:bg-purple-300">Register</Tab>
         </TabList>
         <TabPanel>
+
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -217,3 +220,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login);
+

@@ -4,6 +4,7 @@ export default function Clientes() {
   return (
     <div className="p-8">
       <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Clientes</h2>
+
       <div className="overflow-x-auto">
         <Table className="rounded-box">
           <Table.Head>

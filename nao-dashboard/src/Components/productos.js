@@ -8,6 +8,7 @@ const Productos = () => {
   return (
     <div className="w-full  m-8 p-6"> 
         <h2 className="p-2 underline decoration-violet-900	font-semibold text-lg">Productos</h2>
+
     <table className="bg-white shadow-lg rounded-lg w-11/12">
       <thead>
         <tr>

@@ -9,6 +9,7 @@ export default function Home() {
       <Ventas />
       <Productos />
     <div className="flex">
+
       <Clientes />
       <Recibos />
     </div>
