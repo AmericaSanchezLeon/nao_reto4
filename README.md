@@ -1,11 +1,23 @@
-# nao_reto4
-Para correrlo en Codespaces
-Abre el codespace "glorious-dollop"
+# Final excersice NAO
+This is the final project on the react course from NAO fron Tecmilenio
 
-En la terminal escribe:
+Technologies learned:
+- React
+- JSX
+- Redux
+- Router
+- Tailwind
+
+This project runs in Codespaces <br/>
+Open the codespace "glorious-dollop"
+
+or in terminal 
+```
 cd/nao-dashboard
 npm start
+```
+### Testing data
+- mail : user1@example.com
+- Password: password1
 
-Correo de prueba para ingresar
-user1@example.com, contraseña: password1
-o puedes crear tu propio user!
+Or you can create your own user
